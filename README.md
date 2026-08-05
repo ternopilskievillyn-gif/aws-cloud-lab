@@ -70,3 +70,9 @@ O Amazon S3 foi utilizado para praticar armazenamento de objetos na nuvem.
 O bucket foi configurado com bloqueio de acesso público e criptografia padrão SSE-S3.
 
 ![Objeto armazenado no Amazon S3](screenshots/03-s3-object.png)
+
+### Diagrama detalhado
+
+O diagrama completo da infraestrutura AWS está disponível em:
+
+[Visualizar diagrama da arquitetura](docs/architecture-diagram.md)
