@@ -69,3 +69,18 @@ Ubuntu Linux
 Nginx
     ↓
 Aplicação Web
+
+## Amazon S3
+
+Foi criado um bucket Amazon S3 para praticar armazenamento de objetos na nuvem.
+
+Configurações utilizadas:
+
+- Bucket de uso geral
+- Bloqueio de acesso público habilitado
+- Versionamento desabilitado
+- Criptografia padrão SSE-S3
+
+Foi realizado o upload do arquivo `01-website-ec2.png` para validar o armazenamento de objetos.
+
+Ao testar a URL pública do objeto, o acesso foi negado (`AccessDenied`), confirmando que o bucket não permite acesso público.
