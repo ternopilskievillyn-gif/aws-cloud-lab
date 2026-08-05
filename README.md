@@ -53,3 +53,12 @@ A documentação detalhada da arquitetura e das configurações utilizadas está
 - Chaves privadas `.pem` não são versionadas.
 - Bucket S3 com acesso público bloqueado.
 - Credenciais e variáveis de ambiente são ignoradas pelo Git.
+
+### Security Group
+
+O acesso à instância EC2 é controlado por um Security Group.
+
+- HTTP (porta 80) liberado para acesso à aplicação web.
+- SSH (porta 22) restrito ao IP autorizado.
+
+![Configuração do Security Group](screenshots/02-security-group.png)
