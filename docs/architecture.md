@@ -37,3 +37,35 @@ Durante o projeto serão praticados conceitos de:
 - Deploy
 - Amazon S3
 - Monitoramento de custos na AWS
+
+## Deploy realizado
+
+A aplicação foi hospedada em uma instância Amazon EC2 utilizando Ubuntu Linux.
+
+O Nginx foi instalado e configurado como servidor web para disponibilizar a aplicação através da internet.
+
+### Acesso à aplicação
+
+O acesso HTTP foi permitido através do Security Group utilizando:
+
+- Protocolo: TCP
+- Porta: 80
+- Origem: 0.0.0.0/0
+
+O acesso administrativo à instância é realizado via SSH pela porta 22, restrito ao IP autorizado.
+
+### Fluxo da aplicação
+
+Usuário
+    ↓
+Internet
+    ↓
+Security Group (HTTP - porta 80)
+    ↓
+Amazon EC2
+    ↓
+Ubuntu Linux
+    ↓
+Nginx
+    ↓
+Aplicação Web
