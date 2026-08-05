@@ -76,3 +76,16 @@ O bucket foi configurado com bloqueio de acesso público e criptografia padrão 
 O diagrama completo da infraestrutura AWS está disponível em:
 
 [Visualizar diagrama da arquitetura](docs/architecture-diagram.md)
+
+## Controle de custos
+
+O laboratório também inclui práticas de monitoramento e controle de custos na AWS.
+
+Foram utilizados:
+
+- AWS Budgets para acompanhamento de gastos.
+- Monitoramento dos créditos disponíveis.
+- Acompanhamento do AWS Free Tier.
+- Interrupção da instância EC2 quando não está em uso.
+
+![Gerenciamento de custos na AWS](screenshots/04-cost-management.png)
