@@ -62,3 +62,11 @@ O acesso à instância EC2 é controlado por um Security Group.
 - SSH (porta 22) restrito ao IP autorizado.
 
 ![Configuração do Security Group](screenshots/02-security-group.png)
+
+### Amazon S3
+
+O Amazon S3 foi utilizado para praticar armazenamento de objetos na nuvem.
+
+O bucket foi configurado com bloqueio de acesso público e criptografia padrão SSE-S3.
+
+![Objeto armazenado no Amazon S3](screenshots/03-s3-object.png)
