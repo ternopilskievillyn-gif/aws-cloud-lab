@@ -84,3 +84,15 @@ Configurações utilizadas:
 Foi realizado o upload do arquivo `01-website-ec2.png` para validar o armazenamento de objetos.
 
 Ao testar a URL pública do objeto, o acesso foi negado (`AccessDenied`), confirmando que o bucket não permite acesso público.
+
+## Controle de custos
+
+Para acompanhar e controlar os custos do laboratório:
+
+- Foi criado um AWS Budget do tipo Zero Spend.
+- O saldo de créditos do AWS Free Tier foi monitorado.
+- A utilização dos serviços foi verificada no painel de nível gratuito.
+- A instância EC2 é interrompida quando o laboratório não está sendo utilizado.
+- Recursos associados, como volumes EBS, continuam sendo monitorados mesmo com a EC2 interrompida.
+
+Essa prática ajuda a evitar consumo desnecessário de recursos e custos inesperados.
