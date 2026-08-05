@@ -1,0 +1,9 @@
+# VS Code
+.vscode/
+
+# AWS private keys
+*.pem
+
+# Environment variables
+.env
+.env.*
