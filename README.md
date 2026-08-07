@@ -1,6 +1,18 @@
 # AWS Cloud Lab
 
-**Tags:** `#AWS` `#CloudComputing` `#EC2` `#S3` `#Infraestrutura`
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-Computing-blue?style=for-the-badge)
+![EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+
+Laboratório prático desenvolvido para aplicar conceitos fundamentais de Amazon Web Services (AWS).
+
+## Objetivo
+
+Construir e documentar uma infraestrutura simples na AWS, realizando o deploy de uma aplicação web e praticando conceitos de computação em nuvem, redes, segurança e armazenamento.
+
+## Tecnologias e serviços
+... (o resto do seu texto continua igual daqui para baixo)
 
 Laboratório prático desenvolvido para aplicar conceitos fundamentais de Amazon Web Services (AWS).
 
