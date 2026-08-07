@@ -1,5 +1,7 @@
 # AWS Cloud Lab
 
+**Tags:** `#AWS` `#CloudComputing` `#EC2` `#S3` `#Infraestrutura`
+
 Laboratório prático desenvolvido para aplicar conceitos fundamentais de Amazon Web Services (AWS).
 
 ## Objetivo
